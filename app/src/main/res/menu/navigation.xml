@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_apps"
+        android:icon="@drawable/ic_apps_tab"
+        android:title="@string/title_apps" />
+
+    <item
+        android:id="@+id/navigation_capture"
+        android:icon="@drawable/ic_capture_tab"
+        android:title="@string/title_capture" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_tab"
+        android:title="@string/title_settings" />
+
+</menu>
