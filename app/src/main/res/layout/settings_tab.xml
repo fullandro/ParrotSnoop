@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settingsTab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/settingsTabProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="@dimen/margin_outer"
+        android:indeterminate="true"
+        android:indeterminateBehavior="cycle"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/settingsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/screenRefreshTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:labelFor="@+id/screenRefreshPicker"
+            android:padding="@dimen/margin_inner"
+            android:text="@string/screen_refresh_title"
+            android:textAlignment="center" />
+
+        <NumberPicker
+            android:id="@+id/screenRefreshPicker"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/component_size_large"
+            android:layout_marginBottom="@dimen/margin_outer"
+            android:descendantFocusability="blocksDescendants" />
+
+        <TextView
+            android:id="@+id/displayPacketsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/displayPacketsPicker"
+            android:padding="@dimen/margin_inner"
+            android:text="@string/display_packets_title"
+            android:textAlignment="center" />
+
+        <NumberPicker
+            android:id="@+id/displayPacketsPicker"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/component_size_large"
+            android:layout_marginBottom="@dimen/margin_outer"
+            android:descendantFocusability="blocksDescendants" />
+
+        <TextView
+            android:id="@+id/storePacketsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/storePacketsPicker"
+            android:padding="@dimen/margin_inner"
+            android:text="@string/store_packets_title"
+            android:textAlignment="center" />
+
+        <NumberPicker
+            android:id="@+id/storePacketsPicker"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/component_size_large"
+            android:layout_marginBottom="@dimen/margin_outer"
+            android:descendantFocusability="blocksDescendants" />
+
+        <Button
+            android:id="@+id/clearCaptureButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/component_size"
+            android:text="@string/clear_capture_title" />
+
+    </LinearLayout>
+
+</FrameLayout>

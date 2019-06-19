@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/permissionModal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/permissionModalCloseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/component_size"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/permissionModalCloseImageView"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/element_size"
+            android:layout_margin="@dimen/margin_inner"
+            android:layout_weight="1"
+            android:contentDescription="@string/close_button_description"
+            app:srcCompat="@drawable/ic_x_black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/permissionAppInfoBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/component_size_large"
+        android:background="@color/windowBackgroundAlt"
+        android:elevation="@dimen/margin_inner"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/permissionAppInfoNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/component_size"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/permissionAppInfoIconTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/app_icon_title"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/permissionAppInfoIconImageView"
+                android:layout_width="@dimen/element_size"
+                android:layout_height="@dimen/element_size"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_icon_title"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+
+            <TextView
+                android:id="@+id/permissionAppInfoEnabledTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/app_enabled_title"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/permissionAppInfoEnabledImageView"
+                android:layout_width="@dimen/element_size"
+                android:layout_height="@dimen/element_size"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_enabled_title"
+                app:srcCompat="@drawable/ic_check_green" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/permissionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+</LinearLayout>
