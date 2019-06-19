@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="margin_inner">8dp</dimen>
+    <dimen name="margin_outer">16dp</dimen>
+    <dimen name="element_size">32dp</dimen>
+    <dimen name="component_size">48dp</dimen>
+    <dimen name="component_size_large">64dp</dimen>
+
+</resources>

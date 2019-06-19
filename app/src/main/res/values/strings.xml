@@ -1,0 +1,77 @@
+<resources>
+
+    <string name="app_name">Parrot Snoop</string>
+
+    <string name="title_apps">Apps</string>
+    <string name="title_capture">Capture</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="app_menu_text">Apps</string>
+
+    <string name="no_permissions_text">None</string>
+    <string name="close_button_description">Close</string>
+    <string name="app_icon_title">Icon</string>
+    <string name="app_enabled_title">Enabled</string>
+
+    <string name="capture_button_description_stopped">Start</string>
+    <string name="capture_button_description_started">Stop</string>
+    <string name="export_button_description">Export</string>
+
+    <string name="capture_displayed_title">Displayed</string>
+    <string name="capture_total_title">Total</string>
+
+    <string name="screen_refresh_title">Capture Refresh (seconds)</string>
+    <string-array name="screen_refresh">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+
+    <string name="display_packets_title">Display Packets</string>
+    <string-array name="display_packets">
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+        <item>450</item>
+        <item>500</item>
+    </string-array>
+
+    <string name="store_packets_title">Store Packets</string>
+    <string-array name="store_packets">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+        <item>4500</item>
+        <item>5000</item>
+    </string-array>
+
+    <string name="clear_capture_title">Clear Packets</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="ParrotSnoop.Launcher" parent="ParrotSnoop">
+
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+
+    </style>
+
+    <style name="ParrotSnoop" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+
+    </style>
+
+    <style name="ParrotSnoop.Notification" parent="ParrotSnoop">
+
+        <item name="android:background">@color/navigationBarColor</item>
+
+    </style>
+
+</resources>
